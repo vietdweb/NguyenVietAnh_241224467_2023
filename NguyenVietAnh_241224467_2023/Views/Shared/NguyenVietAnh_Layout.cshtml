@@ -1,0 +1,21 @@
+﻿
+<!DOCTYPE HTML>
+<head>
+	<title>Free Home Shoppe Website Template | Home :: w3layouts</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="/Content/css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <div class="wrap">
+        <partial name="NguyenVietAnh_Header"/>
+        <div class="main">
+			@RenderBody()
+		</div>
+	</div>
+	<partial name="NguyenVietAnh_Footer" />
+    <script src="/Script/js/jquery-1.7.2.min.js"></script>
+	@RenderSection("Scripts",required:false)
+</body>
+</html>
+
